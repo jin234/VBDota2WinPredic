@@ -80,11 +80,11 @@ Partial Class Form1
         '
         Me.HeroSelect1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.HeroSelect1.FormattingEnabled = True
-        Me.HeroSelect1.Items.AddRange(New Object() {"Anti-Mage", "Phantom Assassin", "Slark", "Juggernaut"})
         Me.HeroSelect1.Location = New System.Drawing.Point(7, 158)
         Me.HeroSelect1.MaxDropDownItems = 35
         Me.HeroSelect1.Name = "HeroSelect1"
         Me.HeroSelect1.Size = New System.Drawing.Size(121, 21)
+        Me.HeroSelect1.Sorted = True
         Me.HeroSelect1.TabIndex = 1
         '
         'PictureHero1
@@ -110,11 +110,11 @@ Partial Class Form1
         '
         Me.HeroSelect2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.HeroSelect2.FormattingEnabled = True
-        Me.HeroSelect2.Items.AddRange(New Object() {"Outworld Devourer", "Rubic", "Huskar", "Drow Ranger"})
         Me.HeroSelect2.Location = New System.Drawing.Point(6, 157)
         Me.HeroSelect2.MaxDropDownItems = 35
         Me.HeroSelect2.Name = "HeroSelect2"
         Me.HeroSelect2.Size = New System.Drawing.Size(121, 21)
+        Me.HeroSelect2.Sorted = True
         Me.HeroSelect2.TabIndex = 2
         '
         'PictureHero2
@@ -140,7 +140,6 @@ Partial Class Form1
         '
         Me.HeroSelect3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.HeroSelect3.FormattingEnabled = True
-        Me.HeroSelect3.Items.AddRange(New Object() {"Magnus", "Axe", "Sand King", "Beast Master"})
         Me.HeroSelect3.Location = New System.Drawing.Point(6, 158)
         Me.HeroSelect3.MaxDropDownItems = 35
         Me.HeroSelect3.Name = "HeroSelect3"
@@ -169,12 +168,12 @@ Partial Class Form1
         'HeroSelect4
         '
         Me.HeroSelect4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.HeroSelect4.Enabled = False
         Me.HeroSelect4.FormattingEnabled = True
         Me.HeroSelect4.Location = New System.Drawing.Point(6, 157)
         Me.HeroSelect4.MaxDropDownItems = 35
         Me.HeroSelect4.Name = "HeroSelect4"
         Me.HeroSelect4.Size = New System.Drawing.Size(121, 21)
+        Me.HeroSelect4.Sorted = True
         Me.HeroSelect4.TabIndex = 4
         '
         'PictureHero4
@@ -199,12 +198,12 @@ Partial Class Form1
         'HeroSelect5
         '
         Me.HeroSelect5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.HeroSelect5.Enabled = False
         Me.HeroSelect5.FormattingEnabled = True
         Me.HeroSelect5.Location = New System.Drawing.Point(6, 157)
         Me.HeroSelect5.MaxDropDownItems = 35
         Me.HeroSelect5.Name = "HeroSelect5"
         Me.HeroSelect5.Size = New System.Drawing.Size(121, 21)
+        Me.HeroSelect5.Sorted = True
         Me.HeroSelect5.TabIndex = 5
         '
         'PictureHero5

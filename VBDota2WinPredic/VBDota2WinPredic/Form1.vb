@@ -1,13 +1,35 @@
 ﻿Public Class Form1
+    Dim Heropool1() As String = {"Anti-Mage", "Phantom Assasin", "Slark", "Juggernaut"}
+    Dim Heropool2() As String = {"Outworld Devourer", "Rubic", "Huskar", "Drow Ranger"}
+    Dim Heropool3() As String = {"Magnus", "Axe", "Sand King", "Beast Master"}
+    Dim Heropool0() As String = {"Anti-Mage", "Phantom Assasin", "Slark", "Juggernaut", "Rubic", "Drow Ranger", "Outworld Devourer", "Huskar", "Axe", "Magnus", "Sand King", "Beast Master", "Lion", "Lich", "Orge Magi", "Shadow Shaman", "Jakiro", "Phoenix", "Dazzle", "Bane"}
+    Dim hero1 As String = "0"
+    Dim hero2 As String = "0"
+    Dim hero3 As String = "0"
+    Dim hero4 As String = "0"
+    Dim hero5 As String = "0"
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load, ButtonReset.Click
+        GraphSelecter.SelectedIndex = 0
         Reset()
     End Sub
 
     Private Sub Reset()
-        GraphSelecter.SelectedIndex = 0
+
+        HeroSelect1.Items.Clear()
+        HeroSelect2.Items.Clear()
+        HeroSelect3.Items.Clear()
+        HeroSelect4.Items.Clear()
+        HeroSelect5.Items.Clear()
+
+        HeroSelect1.Items.AddRange(Heropool1)
+        HeroSelect2.Items.AddRange(Heropool2)
+        HeroSelect3.Items.AddRange(Heropool3)
+        HeroSelect4.Items.AddRange(Heropool0)
+        HeroSelect5.Items.AddRange(Heropool0)
     End Sub
     Private Sub HeroSelect1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles HeroSelect1.SelectedIndexChanged
-        If 
+
     End Sub
 
     Private Sub HeroSelect2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles HeroSelect2.SelectedIndexChanged
@@ -27,6 +49,26 @@
     End Sub
 
     Private Sub ClearDuplicationHero(sender As Object, e As EventArgs) Handles HeroSelect5.SelectedIndexChanged, HeroSelect4.SelectedIndexChanged, HeroSelect3.SelectedIndexChanged, HeroSelect2.SelectedIndexChanged, HeroSelect1.SelectedIndexChanged
+
+
+        If HeroSelect1.SelectedIndex <> -1 Then
+            HeroSelect4.Items.Remove(HeroSelect1.SelectedItem)
+            HeroSelect5.Items.Remove(HeroSelect1.SelectedItem)
+        End If
+        If HeroSelect2.SelectedIndex <> -1 Then
+            HeroSelect4.Items.Remove(HeroSelect2.SelectedItem)
+            HeroSelect5.Items.Remove(HeroSelect2.SelectedItem)
+        End If
+        If HeroSelect3.SelectedIndex <> -1 Then
+            HeroSelect4.Items.Remove(HeroSelect3.SelectedItem)
+            HeroSelect5.Items.Remove(HeroSelect3.SelectedItem)
+        End If
+
+        hero1 = HeroSelect1.SelectedItem
+        hero2 = HeroSelect2.SelectedItem
+        hero3 = HeroSelect3.SelectedItem
+        hero4 = HeroSelect4.SelectedItem
+        hero5 = HeroSelect5.SelectedItem
 
     End Sub
 
