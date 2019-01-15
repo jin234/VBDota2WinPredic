@@ -80,6 +80,7 @@ Partial Class Form1
         '
         Me.HeroSelect1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.HeroSelect1.FormattingEnabled = True
+        Me.HeroSelect1.Items.AddRange(New Object() {"Anti-Mage", "Phantom Assassin", "Slark", "Juggernaut"})
         Me.HeroSelect1.Location = New System.Drawing.Point(7, 158)
         Me.HeroSelect1.MaxDropDownItems = 35
         Me.HeroSelect1.Name = "HeroSelect1"
@@ -109,6 +110,7 @@ Partial Class Form1
         '
         Me.HeroSelect2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.HeroSelect2.FormattingEnabled = True
+        Me.HeroSelect2.Items.AddRange(New Object() {"Outworld Devourer", "Rubic", "Huskar", "Drow Ranger"})
         Me.HeroSelect2.Location = New System.Drawing.Point(6, 157)
         Me.HeroSelect2.MaxDropDownItems = 35
         Me.HeroSelect2.Name = "HeroSelect2"
@@ -138,6 +140,7 @@ Partial Class Form1
         '
         Me.HeroSelect3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.HeroSelect3.FormattingEnabled = True
+        Me.HeroSelect3.Items.AddRange(New Object() {"Magnus", "Axe", "Sand King", "Beast Master"})
         Me.HeroSelect3.Location = New System.Drawing.Point(6, 158)
         Me.HeroSelect3.MaxDropDownItems = 35
         Me.HeroSelect3.Name = "HeroSelect3"
@@ -166,6 +169,7 @@ Partial Class Form1
         'HeroSelect4
         '
         Me.HeroSelect4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.HeroSelect4.Enabled = False
         Me.HeroSelect4.FormattingEnabled = True
         Me.HeroSelect4.Location = New System.Drawing.Point(6, 157)
         Me.HeroSelect4.MaxDropDownItems = 35
@@ -195,6 +199,7 @@ Partial Class Form1
         'HeroSelect5
         '
         Me.HeroSelect5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.HeroSelect5.Enabled = False
         Me.HeroSelect5.FormattingEnabled = True
         Me.HeroSelect5.Location = New System.Drawing.Point(6, 157)
         Me.HeroSelect5.MaxDropDownItems = 35
@@ -284,7 +289,11 @@ Partial Class Form1
         '
         'GraphSelecter
         '
+        Me.GraphSelecter.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append
+        Me.GraphSelecter.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.GraphSelecter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.GraphSelecter.FormattingEnabled = True
+        Me.GraphSelecter.Items.AddRange(New Object() {"สัตส่วนการแพ้ / ชนะ", "อัตราการเลือกฮีโร่ Lion"})
         Me.GraphSelecter.Location = New System.Drawing.Point(286, 21)
         Me.GraphSelecter.Name = "GraphSelecter"
         Me.GraphSelecter.Size = New System.Drawing.Size(234, 21)
@@ -295,6 +304,7 @@ Partial Class Form1
         Me.GraphDisplay.Location = New System.Drawing.Point(6, 48)
         Me.GraphDisplay.Name = "GraphDisplay"
         Me.GraphDisplay.Size = New System.Drawing.Size(700, 376)
+        Me.GraphDisplay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.GraphDisplay.TabIndex = 0
         Me.GraphDisplay.TabStop = False
         '
@@ -332,7 +342,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(743, 533)
         Me.Controls.Add(Me.TabControlMain)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "โปรแกรมคำนวนผลการแพ้ชนะ"
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.PictureHero1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
