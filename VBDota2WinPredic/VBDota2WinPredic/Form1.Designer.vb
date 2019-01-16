@@ -92,6 +92,7 @@ Partial Class Form1
         Me.PictureHero1.Location = New System.Drawing.Point(6, 19)
         Me.PictureHero1.Name = "PictureHero1"
         Me.PictureHero1.Size = New System.Drawing.Size(121, 133)
+        Me.PictureHero1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureHero1.TabIndex = 0
         Me.PictureHero1.TabStop = False
         '
@@ -122,6 +123,7 @@ Partial Class Form1
         Me.PictureHero2.Location = New System.Drawing.Point(6, 19)
         Me.PictureHero2.Name = "PictureHero2"
         Me.PictureHero2.Size = New System.Drawing.Size(121, 133)
+        Me.PictureHero2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureHero2.TabIndex = 0
         Me.PictureHero2.TabStop = False
         '
@@ -151,6 +153,7 @@ Partial Class Form1
         Me.PictureHero3.Location = New System.Drawing.Point(6, 19)
         Me.PictureHero3.Name = "PictureHero3"
         Me.PictureHero3.Size = New System.Drawing.Size(121, 133)
+        Me.PictureHero3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureHero3.TabIndex = 0
         Me.PictureHero3.TabStop = False
         '
@@ -181,6 +184,7 @@ Partial Class Form1
         Me.PictureHero4.Location = New System.Drawing.Point(6, 19)
         Me.PictureHero4.Name = "PictureHero4"
         Me.PictureHero4.Size = New System.Drawing.Size(121, 133)
+        Me.PictureHero4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureHero4.TabIndex = 0
         Me.PictureHero4.TabStop = False
         '
@@ -211,6 +215,7 @@ Partial Class Form1
         Me.PictureHero5.Location = New System.Drawing.Point(6, 19)
         Me.PictureHero5.Name = "PictureHero5"
         Me.PictureHero5.Size = New System.Drawing.Size(121, 133)
+        Me.PictureHero5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureHero5.TabIndex = 0
         Me.PictureHero5.TabStop = False
         '

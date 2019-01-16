@@ -118,10 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Anti_Mage_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Anti-Mage_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Axe_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Axe_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bane_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bane_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beastmaster_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beastmaster_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dazzle_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dazzle_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drow_Ranger_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Drow_Ranger_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Graph1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Graph1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Graph2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Graph2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Huskar_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Huskar_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jakiro_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jakiro_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Juggernaut_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Juggernaut_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lich_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lich_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lion_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lion_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magnus_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magnus_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ogre_Magi_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ogre_Magi_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Outworld_Devourer_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Outworld_Devourer_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phantom_Assassin_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Phantom_Assassin_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phoenix_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Phoenix_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rubick_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rubick_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sand_King_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sand_King_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shadow_Shaman_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shadow_Shaman_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slark_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slark_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

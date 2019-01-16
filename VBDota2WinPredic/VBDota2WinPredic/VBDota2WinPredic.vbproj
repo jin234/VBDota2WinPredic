@@ -124,5 +124,68 @@
   <ItemGroup>
     <None Include="Resources\Graph2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anti-Mage_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bane_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beastmaster_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dazzle_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drow_Ranger_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Huskar_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jakiro_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Juggernaut_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lich_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lion_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magnus_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ogre_Magi_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outworld_Devourer_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phantom_Assassin_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phoenix_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rubick_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sand_King_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shadow_Shaman_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slark_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Axe_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
